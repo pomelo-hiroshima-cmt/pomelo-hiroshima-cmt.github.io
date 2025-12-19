@@ -1,5 +1,7 @@
-// @ts-check
+// astro.config.mjs
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  // Set a public URL
+  site: 'https://pomelo-hiroshima-cmt.github.io',
+});
